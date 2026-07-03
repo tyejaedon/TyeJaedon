@@ -31,7 +31,6 @@ Welcome to my GitHub! I’m passionate about building robust, intuitive, and dyn
 | 🐯 **TigerPlayer** | Premium Android audio player built for enthusiasts. Features uncompromising audio quality, smooth micro‑animations, and a cinematic playback experience. | Kotlin, Jetpack Compose, Media3 |
 | 💳 **Merchant Pro** | Comprehensive business app integrating Daraja/M‑Pesa APIs for seamless mobile money payment processing and real‑time store management. | React, Node.js, M‑Pesa API |
 | 🧠 **Neural Compressor** | ML pipeline designed to prune and compress deep neural networks, reducing model size and latency for edge devices. Includes PyTorch → ONNX → TensorFlow → TFLite conversion workflows. | Python, TensorFlow, PyTorch, ONNX |
-| 🎓 **Study Tools** | Open‑source Android apps for note‑taking and productivity, inspired by GitHub community projects. | Kotlin, Firebase |
 
 ---
 
