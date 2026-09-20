@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+
+:root {
+  --color-brand-primary: #ff6a3d;
+  --color-brand-secondary: #1ca6a4;
+  --color-background-base: #fefbf5;
+  --color-text-main: #10131a;
+}
+
+.dark-mode {
+  --bg-color: #10131a;
+  --text-color: #fefbf5;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: clamp(15px, 0.35vw + 14px, 18px);
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  text-wrap: pretty;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+@media (max-width: 360px) {
+  html {
+    font-size: 14px;
+  }
+}

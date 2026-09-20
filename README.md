@@ -17,10 +17,17 @@ Welcome to my GitHub! I’m passionate about building robust, intuitive, and dyn
 
 ## 🛠️ Technical Arsenal  
 
-- **Languages & Core**: Python, Kotlin, JavaScript/TypeScript, C++  
-- **Frontend & Mobile**: Jetpack Compose, React, Flutter  
-- **Backend & Machine Learning**: Node.js, TensorFlow, PyTorch, ONNX, TFLite  
-- **Tools & Cloud**: GitHub Actions, Docker, AWS, Google Cloud, Firebase  
+**Languages**  
+[![Languages](https://skillicons.dev/icons?i=python,kotlin,js,ts,cpp)](https://skillicons.dev)
+
+**Frontend & Mobile**  
+[![Frontend](https://skillicons.dev/icons?i=vue,react,tailwind,androidstudio,flutter)](https://skillicons.dev)
+
+**Backend & Data**  
+[![Backend](https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql,tensorflow,pytorch)](https://skillicons.dev)
+
+**Hardware & Tooling**  
+[![Tooling](https://skillicons.dev/icons?i=arduino,git,github,docker,figma,vscode)](https://skillicons.dev)
 
 ---
 
@@ -34,9 +41,9 @@ Welcome to my GitHub! I’m passionate about building robust, intuitive, and dyn
 
 ---
 
+## 📷 Beyond The Code  
 
----
-
+I shoot stills when I'm away from a keyboard — nature, architecture, and street work live in the Photography section of my portfolio site.
 
 ---
 
