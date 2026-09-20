@@ -5,5 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue(), tailwindcss()],
-  base: '/personal-porfolio-169684/',
+  // GitHub Pages project site path; override with VITE_BASE when deploying elsewhere.
+  base: process.env.VITE_BASE ?? '/TyeJaedon/',
 })
