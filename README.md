@@ -15,20 +15,24 @@ Welcome to my GitHub! I’m passionate about building robust, intuitive, and dyn
 
 ---
 
-## � GitHub Stats  
+## 📊 GitHub Stats  
+
+<h3 align="center">Overview & Streak</h3>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=tyejaedon&show_icons=true&include_all_commits=true&count_private=true&theme=radical&hide_border=true" alt="Tye's GitHub Stats" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=tyejaedon&theme=radical&hide_border=true" alt="Tye's GitHub Streak" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=tyejaedon&show_icons=true&include_all_commits=true&theme=radical&hide_border=true" alt="Tye's GitHub Stats" />
+  <img height="165" src="https://streak-stats.demolab.com?user=tyejaedon&theme=radical&hide_border=true" alt="Tye's GitHub Streak" />
 </p>
 
+<h3 align="center">Most Used Languages</h3>
+
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyejaedon&layout=compact&langs_count=8&theme=radical&hide_border=true" alt="Tye's Most Used Languages" />
+  <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=tyejaedon&layout=compact&langs_count=8&theme=radical&hide_border=true" alt="Tye's Most Used Languages" />
 </p>
 
 ---
 
-## �🛠️ Technical Arsenal  
+## 🛠️ Technical Arsenal  
 
 **Languages**  
 [![Languages](https://skillicons.dev/icons?i=python,kotlin,js,ts,cpp)](https://skillicons.dev)
