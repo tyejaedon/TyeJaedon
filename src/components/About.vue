@@ -1,10 +1,55 @@
 <script setup>
-const props = defineProps({
+defineProps({
   loading: {
     type: Boolean,
     default: false,
   },
 })
+
+// Icon slugs resolve against skillicons.dev — see https://skillicons.dev for the full list.
+const skillGroups = [
+  {
+    label: 'Languages',
+    skills: [
+      { icon: 'python', name: 'Python' },
+      { icon: 'kotlin', name: 'Kotlin' },
+      { icon: 'js', name: 'JavaScript' },
+      { icon: 'ts', name: 'TypeScript' },
+      { icon: 'cpp', name: 'C++' },
+    ],
+  },
+  {
+    label: 'Frontend & Mobile',
+    skills: [
+      { icon: 'vue', name: 'Vue' },
+      { icon: 'react', name: 'React' },
+      { icon: 'tailwind', name: 'Tailwind CSS' },
+      { icon: 'androidstudio', name: 'Jetpack Compose' },
+      { icon: 'flutter', name: 'Flutter' },
+    ],
+  },
+  {
+    label: 'Backend & Data',
+    skills: [
+      { icon: 'nodejs', name: 'Node.js' },
+      { icon: 'express', name: 'Express' },
+      { icon: 'mongodb', name: 'MongoDB' },
+      { icon: 'mysql', name: 'MySQL' },
+      { icon: 'tensorflow', name: 'TensorFlow' },
+      { icon: 'pytorch', name: 'PyTorch' },
+    ],
+  },
+  {
+    label: 'Hardware & Tooling',
+    skills: [
+      { icon: 'arduino', name: 'Arduino / ESP32' },
+      { icon: 'git', name: 'Git' },
+      { icon: 'github', name: 'GitHub' },
+      { icon: 'figma', name: 'Figma' },
+      { icon: 'vscode', name: 'VS Code' },
+    ],
+  },
+]
 </script>
 
 <template>
@@ -25,8 +70,7 @@ const props = defineProps({
       </div>
       <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
         <div class="h-36 animate-pulse rounded-2xl bg-slate-200 sm:col-span-2"></div>
-        <div class="h-40 animate-pulse rounded-2xl bg-slate-200"></div>
-        <div class="h-40 animate-pulse rounded-2xl bg-slate-200"></div>
+        <div class="h-72 animate-pulse rounded-2xl bg-slate-200 sm:col-span-2"></div>
         <div class="h-28 animate-pulse rounded-2xl bg-slate-200 sm:col-span-2"></div>
       </div>
     </div>
@@ -76,16 +120,31 @@ const props = defineProps({
           </div>
         </div>
 
-        <!-- Full-Stack & Mobile -->
-        <div class="flex flex-col justify-between rounded-2xl border border-[rgba(16,19,26,0.08)] bg-white/60 p-7 shadow-sm backdrop-blur-md">
-          <h3 class="mb-8 text-lg font-bold leading-tight text-[#10131a]">Full-Stack &<br>Mobile</h3>
-          <p class="text-sm font-medium text-[#516078]">Vue, React, Kotlin & Jetpack Compose</p>
-        </div>
-
-        <!-- Systems & Data -->
-        <div class="flex flex-col justify-between rounded-2xl border border-[rgba(16,19,26,0.08)] bg-white/60 p-7 shadow-sm backdrop-blur-md">
-          <h3 class="mb-8 text-lg font-bold leading-tight text-[#10131a]">Systems &<br>Data</h3>
-          <p class="text-sm font-medium text-[#516078]">ML Optimization & Node.js Backends</p>
+        <!-- Skills -->
+        <div class="col-span-1 rounded-2xl border border-[rgba(16,19,26,0.08)] bg-white/60 p-7 shadow-sm backdrop-blur-md sm:col-span-2">
+          <h3 class="mb-6 text-xs font-bold uppercase tracking-[0.12em] text-[#516078]">
+            Technical Arsenal
+          </h3>
+          <div class="space-y-5">
+            <div v-for="group in skillGroups" :key="group.label">
+              <p class="mb-2.5 text-[0.7rem] font-bold uppercase tracking-[0.1em] text-[#8494a8]">
+                {{ group.label }}
+              </p>
+              <ul class="flex flex-wrap gap-2.5">
+                <li v-for="skill in group.skills" :key="skill.icon">
+                  <img
+                    :src="`https://skillicons.dev/icons?i=${skill.icon}&theme=light`"
+                    :alt="skill.name"
+                    :title="skill.name"
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                    class="h-10 w-10 rounded-lg transition-transform duration-200 hover:-translate-y-0.5"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <!-- Hardware & IoT -->
