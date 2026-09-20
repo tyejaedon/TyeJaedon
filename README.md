@@ -15,7 +15,20 @@ Welcome to my GitHub! I’m passionate about building robust, intuitive, and dyn
 
 ---
 
-## 🛠️ Technical Arsenal  
+## � GitHub Stats  
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=tyejaedon&show_icons=true&include_all_commits=true&count_private=true&theme=radical&hide_border=true" alt="Tye's GitHub Stats" />
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=tyejaedon&theme=radical&hide_border=true" alt="Tye's GitHub Streak" />
+</p>
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tyejaedon&layout=compact&langs_count=8&theme=radical&hide_border=true" alt="Tye's Most Used Languages" />
+</p>
+
+---
+
+## �🛠️ Technical Arsenal  
 
 **Languages**  
 [![Languages](https://skillicons.dev/icons?i=python,kotlin,js,ts,cpp)](https://skillicons.dev)
