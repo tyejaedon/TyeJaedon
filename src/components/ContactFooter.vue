@@ -353,7 +353,7 @@ const footerNav = [
 			</div>
 
 			<div class="mt-6 flex flex-col gap-2 text-xs text-[#9aa9c5] sm:flex-row sm:items-center sm:justify-between">
-				<p>© 2026 Tyeja Kibui. Crafted in Vue + Tailwind CSS.</p>
+				<p>© 2026 Tyejaedon. Crafted in Vue + Tailwind CSS.</p>
 				<p>Designed for performance, accessibility, and clarity.</p>
 			</div>
 		</div>
