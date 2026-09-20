@@ -3,7 +3,9 @@ import { onMounted, ref } from 'vue'
 import HeroSection from '../components/HeroSection.vue'
 import Navbar from '../components/Navbar.vue'
 import About from '../components/About.vue'
+import GithubActivity from '../components/GithubActivity.vue'
 import Showcase from '../components/Showcase.vue'
+import Photography from '../components/Photography.vue'
 import ContactFooter from '../components/ContactFooter.vue'
 
 const isLoading = ref(true)
@@ -22,7 +24,9 @@ onMounted(() => {
         <main>
             <HeroSection :loading="isLoading" />
             <About :loading="isLoading" />
+            <GithubActivity :loading="isLoading" />
             <Showcase :loading="isLoading" />
+            <Photography :loading="isLoading" />
         </main>
 
         <ContactFooter :loading="isLoading" />
